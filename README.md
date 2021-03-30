@@ -5,10 +5,10 @@ Fork my repo (click on the Fork icon in the upper right hand corner of this scre
 
 This creates a copy of this repo in your own personal Gitbhub account space, and allows you to modify and make changes without impacting the main repo.
 
-To get updates from the main repo (info340b-sp20/in-class) then you need to do the following once you clone it locally:
+To get updates from the main repo (info340c-sp21/in-class) then you need to do the following once you clone it locally:
 
 1. open the folder in the command line `cd in-class`
-2. `git remote add upstream https://github.com/info340b-sp20/in-class.git`
+2. `git remote add upstream https://github.com/info340c-sp21/in-class.git`
 3. Now run `git remote -v` to verify that the upstream has been added
 
 Now you can get updates from the main repo at any time by using `git pull upstream main`
