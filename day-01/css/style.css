@@ -1,1 +1,10 @@
 /* we'll add some basic style here */
+main {
+    font-family: Roboto, Helvetica, sans-serif;
+    color:rgb(255,0,0);
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 2.5em;
+}
