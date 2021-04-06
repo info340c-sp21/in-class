@@ -1,0 +1,113 @@
+/* Try out various selectors on the Zen Garden */
+
+/* tag selector */
+h1 { 
+
+} /* applied to <h1> */
+
+/* class selector */
+.design-name { 
+
+} /* applied to elements with `class="design-name"` */
+
+/* id selector */
+#zen-intro { 
+
+} /* applied to the element with `id="zen-intro"` */
+
+/* group selector */
+.explanation .participation .benefits .requirements { 
+
+} /* applied to ANY .explanation OR .participation OR .benefits OR .requirements */
+
+/* combined selector */
+h3 .select { 
+
+} /* applied to ONLY combination of <h3> AND .select */
+
+/* descendant selector */
+nav li { 
+
+} /* applied ONLY to <li> INSIDE of <nav>
+
+/* child selector */
+div ul { 
+
+} /* applied to <ul> DIRECTLY INSIDE of <div>
+
+/* Immediately following selector */
+header div { 
+
+} /* applied to every element immediately after the first element */
+
+/* Preceded by selector */
+header div { 
+
+} /* applied to every element immediately preceded by the first element */
+
+/* Attribute selector */
+role { 
+
+} /* applied to every element with role attribute */
+
+/* Attribute value selector */
+role article { 
+
+} /* applied to every element with the value of article for the role attribute */
+
+/* Not selector */
+not p { 
+
+} /* applied to all elements that are not the indicated element */
+
+/* All selector */
+* { 
+
+} /* applied to all elements */
+
+/* Pseudo-class selector */
+li:focus, li:hover { 
+
+} /* applied to element on focus or hover */
+
+/* Pseudo-class selector */
+nav li:first-child {
+
+} /* applied to the <li> that is the first child of nav /*
+
+/* Pseudo-class selector */
+:not(:first-of-type) {
+
+} /* NOT applied the first of type of each element 
+that is the first of element of its parent */
+
+/* Pseudo-class selector */
+li:nth-child(2) {
+
+} /* applied the <li> that is the 2nd child of its parent */
+
+/* Pseudo-class selector */
+li:nth-child(odd) {
+
+} /* applied to every odd <li> child (first element is #1) */
+
+/* Pseudo-element selector */
+h1::first-letter {
+
+} /* applied the first letter of each <h1> element */
+
+/* Pseudo-class + pseudo-element selector */
+p:first-of-type::first-letter {
+
+} /* applied to the first letter ONLY of <p> that 
+are the first of type <p> in their parent */
+
+/* pseudo-element selector */
+h1::after {
+
+} /* applied before ANY <h2> element */ `
+
+/* Pseudo-element selector */
+::selection {
+
+} /* applied to the selection made by the end user. Not officially part of CSS3 spec */
