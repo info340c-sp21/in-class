@@ -1,0 +1,18 @@
+/* Styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css');
+canvas {
+    border: 1px solid #000000
+}
+
+input {
+    width: 50%;
+    height: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container div {
+    margin: 10px;
+}
