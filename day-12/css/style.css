@@ -1,0 +1,14 @@
+.puppyCard {
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor:pointer;
+}
+
+#content {
+    width:100%;
+    height:80vh;
+}
+input {
+    margin-bottom:10px;
+}
